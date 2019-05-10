@@ -1,2 +1,0 @@
-# beerpong
-Created with CodeSandbox
