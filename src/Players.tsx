@@ -8,7 +8,7 @@ export const Players: FC = function() {
   const [state, dispatch] = useGameState();
   function onSubmit(e: FormEvent) {
     e.preventDefault();
-    console.log(name, "submitted");
+    console.log(state, "submitted");
     dispatch({ type: ACTIONS.ADD_PLAYER, payload: { name, email } });
   }
   return (

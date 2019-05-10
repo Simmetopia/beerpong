@@ -7,7 +7,8 @@ import { GameStateProvider, defaultState, reducer } from "./BeerPongGame";
 import { GameBoard } from "./GameBoard";
 
 const theme: Theme = createMuiTheme({
-  typography: { fontFamily: "Montserrat" }
+  typography: { fontFamily: "Montserrat" },
+  palette:{text:{ secondary:"#fff" }}
 });
 
 function App() {
